@@ -1,9 +1,9 @@
 import Title from "@/components/Title";
 
-export default function Tutorial() {
+export default function Stories() {
   return (
     <div>
-      <Title>Tutorial</Title>
+      <Title>Stories</Title>
     </div>
   );
 }
