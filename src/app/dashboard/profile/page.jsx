@@ -1,9 +1,9 @@
 import Title from "@/components/Title";
 
-export default function Dashboard() {
+export default function Profile() {
   return (
     <div>
-      <Title>Welcome to Dashboard</Title>
+      <Title>Profile</Title>
     </div>
   );
 }
