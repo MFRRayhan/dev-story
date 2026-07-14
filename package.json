@@ -2,6 +2,19 @@
   "name": "dev-story",
   "version": "0.1.0",
   "private": true,
+  "description": "Next Js Practice",
+  "homepage": "https://github.com/MFRRayhan/dev-story#readme",
+  "bugs": {
+    "url": "https://github.com/MFRRayhan/dev-story/issues"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/MFRRayhan/dev-story.git"
+  },
+  "license": "MIT",
+  "author": "MFR Rayhan",
+  "type": "module",
+  "main": "index.js",
   "scripts": {
     "dev": "next dev",
     "build": "next build",
