@@ -14,9 +14,6 @@ export default function Navbar() {
           <Link href="/tutorials">Tutorials</Link>
         </li>
         <li>
-          <Link href="/tutorials">Tutorials</Link>
-        </li>
-        <li>
           <Link href="/login">Login</Link>
         </li>
         <li>
