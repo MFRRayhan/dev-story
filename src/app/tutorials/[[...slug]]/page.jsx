@@ -2,8 +2,7 @@ import Title from "@/components/Title";
 
 export default async function Tutorials({ params }) {
   const { slug } = await params;
-  console.log(slug);
-  const [technology, topic, , page_no, subject] = slug;
+  const [technology, topic, , page_no, subject] = slug || [];
 
   return (
     <div>

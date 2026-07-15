@@ -1,23 +1,23 @@
-import Link from "next/link";
+import NavLink from "./NavLink";
 
 export default function Navbar() {
   return (
     <nav>
       <ul className="flex items-center gap-5">
         <li>
-          <Link href="/about">About</Link>
+          <NavLink href="/about">About</NavLink>
         </li>
         <li>
-          <Link href="/stories">Stories</Link>
+          <NavLink href="/stories">Stories</NavLink>
         </li>
         <li>
-          <Link href="/tutorials">Tutorials</Link>
+          <NavLink href="/tutorials">Tutorials</NavLink>
         </li>
         <li>
-          <Link href="/login">Login</Link>
+          <NavLink href="/login">Login</NavLink>
         </li>
         <li>
-          <Link href="/register">Register</Link>
+          <NavLink href="/register">Register</NavLink>
         </li>
       </ul>
     </nav>

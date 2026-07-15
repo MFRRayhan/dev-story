@@ -1,11 +1,12 @@
+import Logo from "@/components/Logo";
 import Link from "next/link";
 
 export default function DashboardLayout({ children }) {
   return (
     <section className="grid grid-cols-12 gap-5">
       <div className="col-span-3 border-r-2 pr-5">
-        <h2 className="text-lg mb-5">Navigation</h2>
-        <nav>
+        <Logo />
+        <nav className="mt-5">
           <ul className="space-y-5">
             <li>
               <Link
